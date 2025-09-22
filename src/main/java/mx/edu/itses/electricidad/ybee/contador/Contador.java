@@ -72,11 +72,7 @@ public class Contador {
         labelContador.setText(String.valueOf(contador));
     }
 
-    public static void main(String[] args) {
-        javax.swing.SwingUtilities.invokeLater(new Runnable() {
-            public void run() {
-                new Contador();
-            }
-        });
+ public static void main(String[] args) {
+        new Contador();
     }
 }
